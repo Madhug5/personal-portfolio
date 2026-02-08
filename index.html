@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Madhav Nalla, a final-year B.Tech student building web, cloud, and AI-powered products."
+    />
+    <title>Madhav Reddy Nalla | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="mesh"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <header class="topbar">
+      <a href="#home" class="brand" id="brandName">Madhav Nalla</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy" data-reveal>
+          <p class="badge" id="heroBadge">Available for internships and full-time roles</p>
+          <h1>
+            Hi, I'm <span id="heroName">Madhav</span>.
+            <span class="gradient" id="heroRole">Final-Year B.Tech Student (4-2)</span>
+          </h1>
+          <p class="hero-text" id="heroSummary"></p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">See My Work</a>
+            <a class="btn btn-secondary" id="resumeLink" href="./resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+          <p class="meta" id="heroMeta"></p>
+        </div>
+
+        <aside class="hero-card tilt" data-reveal>
+          <div class="avatar" id="avatar">NM</div>
+          <h2 id="cardName">Madhav Reddy Nalla</h2>
+          <p id="cardRole">B.Tech 4-2 Student</p>
+          <div class="stats" id="statsGrid"></div>
+        </aside>
+      </section>
+
+      <section class="section" id="about" data-reveal>
+        <div class="section-title-wrap">
+          <p class="kicker">About</p>
+          <h2>Who I Am</h2>
+        </div>
+        <div class="about-card tilt">
+          <p id="aboutLine1"></p>
+          <p id="aboutLine2"></p>
+        </div>
+      </section>
+
+      <section class="section" id="skills" data-reveal>
+        <div class="section-title-wrap">
+          <p class="kicker">Skill Stack</p>
+          <h2>Tools I Build With</h2>
+        </div>
+        <div class="skill-grid" id="skillGrid"></div>
+      </section>
+
+      <section class="section" id="projects" data-reveal>
+        <div class="section-title-wrap">
+          <p class="kicker">Projects</p>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="section" id="journey" data-reveal>
+        <div class="section-title-wrap">
+          <p class="kicker">Journey</p>
+          <h2>Education and Experience</h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="section" id="achievements" data-reveal>
+        <div class="section-title-wrap">
+          <p class="kicker">Highlights</p>
+          <h2>Achievements and Certifications</h2>
+        </div>
+        <div class="achievement-grid" id="achievementGrid"></div>
+      </section>
+
+      <section class="section contact" id="contact" data-reveal>
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Let's build something useful together.</h2>
+          <p id="contactCopy"></p>
+          <div class="actions">
+            <a class="btn btn-primary" id="emailLink" href="mailto:madhavnalla21@gmail.com">Email Me</a>
+            <a class="btn btn-secondary" id="contactResumeLink" href="./resume.pdf" target="_blank" rel="noreferrer">Open Resume</a>
+          </div>
+        </div>
+        <div class="social-list" id="socialList"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="footerText"></p>
+      <p class="edit-note">Quick edits: update profile content in <code>script.js</code>.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
